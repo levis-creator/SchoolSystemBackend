@@ -134,3 +134,4 @@ C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.pdb
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.genruntimeconfig.cache
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\ref\SchoolSystemBackend.dll
+C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.sourcelink.json

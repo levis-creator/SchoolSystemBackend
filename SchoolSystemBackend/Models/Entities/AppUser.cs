@@ -1,14 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace SchoolSystemBackend.Models.Entities
 {
+    [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum GenderType
     {
-        [Display(Name ="Male")]
         Male,
-        [Display(Name ="Female")]
         Female,
-        [Display(Name = "Other")]
         Other
     }
     public abstract class AppUser
