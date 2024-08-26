@@ -12,18 +12,33 @@ using SchoolSystemBackend.Data;
 namespace SchoolSystemBackend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240813151648_enum")]
-    partial class @enum
+    [Migration("20240824174529_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.7")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("AppUserNextOfKin", b =>
+                {
+                    b.Property<int>("AppUsersId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NextOfKinsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppUsersId", "NextOfKinsId");
+
+                    b.HasIndex("NextOfKinsId");
+
+                    b.ToTable("AppUserNextKins", (string)null);
+                });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.AppUser", b =>
                 {
@@ -38,6 +53,11 @@ namespace SchoolSystemBackend.Migrations
 
                     b.Property<DateOnly>("DateOfBirth")
                         .HasColumnType("date");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -55,9 +75,63 @@ namespace SchoolSystemBackend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUsers", (string)null);
+                    b.ToTable("AppUsers");
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator().HasValue("AppUser");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.ClassStream", b =>
+                {
+                    b.Property<Guid>("StreamId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("StreamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("StreamId");
+
+                    b.ToTable("ClassStreams");
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Grade", b =>
+                {
+                    b.Property<Guid>("GradeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GradeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("StreamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("GradeId");
+
+                    b.ToTable("Grades");
                 });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.NextOfKin", b =>
@@ -67,6 +141,9 @@ namespace SchoolSystemBackend.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("EmailAddress")
                         .IsRequired()
@@ -79,6 +156,12 @@ namespace SchoolSystemBackend.Migrations
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("NationalId")
+                        .HasColumnType("int");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -107,7 +190,7 @@ namespace SchoolSystemBackend.Migrations
                     b.Property<int>("NationalId")
                         .HasColumnType("int");
 
-                    b.ToTable("Staff", (string)null);
+                    b.HasDiscriminator().HasValue("Staff");
                 });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Student", b =>
@@ -117,25 +200,38 @@ namespace SchoolSystemBackend.Migrations
                     b.Property<DateOnly>("AdmissionDate")
                         .HasColumnType("date");
 
-                    b.ToTable("Students", (string)null);
+                    b.HasDiscriminator().HasValue("Student");
                 });
 
-            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Staff", b =>
+            modelBuilder.Entity("AppUserNextOfKin", b =>
                 {
                     b.HasOne("SchoolSystemBackend.Models.Entities.AppUser", null)
-                        .WithOne()
-                        .HasForeignKey("SchoolSystemBackend.Models.Entities.Staff", "Id")
+                        .WithMany()
+                        .HasForeignKey("AppUsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SchoolSystemBackend.Models.Entities.NextOfKin", null)
+                        .WithMany()
+                        .HasForeignKey("NextOfKinsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Student", b =>
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Grade", b =>
                 {
-                    b.HasOne("SchoolSystemBackend.Models.Entities.AppUser", null)
-                        .WithOne()
-                        .HasForeignKey("SchoolSystemBackend.Models.Entities.Student", "Id")
+                    b.HasOne("SchoolSystemBackend.Models.Entities.ClassStream", "ClassStream")
+                        .WithMany("Grades")
+                        .HasForeignKey("GradeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("ClassStream");
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.ClassStream", b =>
+                {
+                    b.Navigation("Grades");
                 });
 #pragma warning restore 612, 618
         }

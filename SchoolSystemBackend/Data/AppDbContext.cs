@@ -9,20 +9,29 @@ namespace SchoolSystemBackend.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Staff> Staff { get; set; }
         public DbSet<NextOfKin> NextOfKins { get; set; }
+        public DbSet<Grade> Grades { get; set; }
+        public DbSet<ClassStream> ClassStreams { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AppUser>().ToTable("AppUsers");
-            modelBuilder.Entity<Student>().ToTable("Students");
-            modelBuilder.Entity<Staff>().ToTable("Staff");
             //auto id
             modelBuilder.Entity<AppUser>()
                 .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
+            modelBuilder.Entity<ClassStream>()
+                .HasMany(e => e.Grades)
+                .WithOne(g => g.ClassStream)
+                .HasForeignKey(g => g.GradeId);
+            modelBuilder.Entity<Student>()
+                .HasMany(e => e.NextOfKins)
+                .WithMany(e => e.Students)
+                .UsingEntity(j=>j.ToTable("StudentNextOfKins"));
+
             base.OnModelCreating(modelBuilder);
+
         }
     }
 }

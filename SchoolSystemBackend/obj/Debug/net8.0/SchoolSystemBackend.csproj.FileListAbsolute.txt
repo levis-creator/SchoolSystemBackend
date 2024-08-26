@@ -120,6 +120,7 @@ C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.csproj.CoreCompileInputs.cache
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.sourcelink.json
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\staticwebassets\msbuild.SchoolSystemBackend.Microsoft.AspNetCore.StaticWebAssets.props
@@ -134,4 +135,3 @@ C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.pdb
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.genruntimeconfig.cache
 C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\ref\SchoolSystemBackend.dll
-C:\Users\levi\source\repos\SchoolSystemBackend\SchoolSystemBackend\obj\Debug\net8.0\SchoolSystemBackend.sourcelink.json

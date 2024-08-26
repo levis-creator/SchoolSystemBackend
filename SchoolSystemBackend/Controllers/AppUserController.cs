@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SchoolSystemBackend.Models.Dtos.Staff;
 using SchoolSystemBackend.Models.Dtos.Student;
 using SchoolSystemBackend.Repositories.Interface;
@@ -34,7 +33,7 @@ namespace SchoolSystemBackend.Controllers
             }
 
         }
-        
+
         [HttpGet("staff")]
         public IActionResult GetAllStaff()
         {
@@ -72,7 +71,7 @@ namespace SchoolSystemBackend.Controllers
         public IActionResult DeleteStaff(int id)
         {
             var staff = _appUserRepository.GetStaffById(id);
-            if(staff == null)
+            if (staff == null)
             {
                 return NotFound();
             }
@@ -98,7 +97,17 @@ namespace SchoolSystemBackend.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Something went wrong");
             }
         }
-  
+
+        [HttpPost("students/many")]
+        public IActionResult AddStudents([FromBody] List<AddStudentDto> addStudents)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var students=_appUserRepository.AddManyStudent(addStudents);
+            return Ok(students);
+        }
         [HttpGet("students")]
         public IActionResult GetAllStudents()
         {
@@ -124,7 +133,7 @@ namespace SchoolSystemBackend.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var student= _appUserRepository.UpdateStudentById(id, updateStudentDto);
+            var student = _appUserRepository.UpdateStudentById(id, updateStudentDto);
             if (student == null)
             {
                 return NotFound();
@@ -136,7 +145,7 @@ namespace SchoolSystemBackend.Controllers
         public IActionResult DeleteStudent(int id)
         {
             var student = _appUserRepository.GetStudentById(id);
-            if(student == null)
+            if (student == null)
             {
                 return NotFound();
             }

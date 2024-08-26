@@ -17,10 +17,25 @@ namespace SchoolSystemBackend.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.7")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("NextOfKinStudent", b =>
+                {
+                    b.Property<int>("NextOfKinsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("NextOfKinsId", "StudentsId");
+
+                    b.HasIndex("StudentsId");
+
+                    b.ToTable("StudentNextOfKins", (string)null);
+                });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.AppUser", b =>
                 {
@@ -35,6 +50,11 @@ namespace SchoolSystemBackend.Migrations
 
                     b.Property<DateOnly>("DateOfBirth")
                         .HasColumnType("date");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -52,9 +72,63 @@ namespace SchoolSystemBackend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppUsers", (string)null);
+                    b.ToTable("AppUsers");
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator().HasValue("AppUser");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.ClassStream", b =>
+                {
+                    b.Property<Guid>("StreamId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("StreamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("StreamId");
+
+                    b.ToTable("ClassStreams");
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Grade", b =>
+                {
+                    b.Property<Guid>("GradeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GradeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("StreamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("GradeId");
+
+                    b.ToTable("Grades");
                 });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.NextOfKin", b =>
@@ -64,6 +138,9 @@ namespace SchoolSystemBackend.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("EmailAddress")
                         .IsRequired()
@@ -77,6 +154,12 @@ namespace SchoolSystemBackend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("NationalId")
+                        .HasColumnType("int");
+
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -85,7 +168,12 @@ namespace SchoolSystemBackend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("StaffId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("StaffId");
 
                     b.ToTable("NextOfKins");
                 });
@@ -104,7 +192,7 @@ namespace SchoolSystemBackend.Migrations
                     b.Property<int>("NationalId")
                         .HasColumnType("int");
 
-                    b.ToTable("Staff", (string)null);
+                    b.HasDiscriminator().HasValue("Staff");
                 });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Student", b =>
@@ -114,25 +202,50 @@ namespace SchoolSystemBackend.Migrations
                     b.Property<DateOnly>("AdmissionDate")
                         .HasColumnType("date");
 
-                    b.ToTable("Students", (string)null);
+                    b.HasDiscriminator().HasValue("Student");
+                });
+
+            modelBuilder.Entity("NextOfKinStudent", b =>
+                {
+                    b.HasOne("SchoolSystemBackend.Models.Entities.NextOfKin", null)
+                        .WithMany()
+                        .HasForeignKey("NextOfKinsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SchoolSystemBackend.Models.Entities.Student", null)
+                        .WithMany()
+                        .HasForeignKey("StudentsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Grade", b =>
+                {
+                    b.HasOne("SchoolSystemBackend.Models.Entities.ClassStream", "ClassStream")
+                        .WithMany("Grades")
+                        .HasForeignKey("GradeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ClassStream");
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.NextOfKin", b =>
+                {
+                    b.HasOne("SchoolSystemBackend.Models.Entities.Staff", null)
+                        .WithMany("NextOfKins")
+                        .HasForeignKey("StaffId");
+                });
+
+            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.ClassStream", b =>
+                {
+                    b.Navigation("Grades");
                 });
 
             modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Staff", b =>
                 {
-                    b.HasOne("SchoolSystemBackend.Models.Entities.AppUser", null)
-                        .WithOne()
-                        .HasForeignKey("SchoolSystemBackend.Models.Entities.Staff", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("SchoolSystemBackend.Models.Entities.Student", b =>
-                {
-                    b.HasOne("SchoolSystemBackend.Models.Entities.AppUser", null)
-                        .WithOne()
-                        .HasForeignKey("SchoolSystemBackend.Models.Entities.Student", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("NextOfKins");
                 });
 #pragma warning restore 612, 618
         }

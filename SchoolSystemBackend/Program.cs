@@ -13,11 +13,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+/***************************************************************/
 //add repository injection
 builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
-builder.Services.AddCors(options=>options.AddPolicy(
-    name:"MyPolicy",
-    policy=> policy.WithOrigins(
+builder.Services.AddScoped<IClassStreamRepository, ClassStreamRepository>();
+builder.Services.AddScoped<IGradesRepository, GradeRepository>();
+builder.Services.AddScoped <INextOfKinRepository, NextOfKinRepository>();
+
+/**************************************************************/
+
+builder.Services.AddCors(options => options.AddPolicy(
+    name: "MyPolicy",
+    policy => policy.WithOrigins(
         "http://localhost:3000"
         )
     ));

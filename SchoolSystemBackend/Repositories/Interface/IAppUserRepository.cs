@@ -9,6 +9,9 @@ namespace SchoolSystemBackend.Repositories.Interface
         //get all data
         IEnumerable<Student> GetAllStudents();
         IEnumerable<Staff> GetAllStaff();
+        //adding Multiple Data
+        dynamic AddManyStudent(IEnumerable<AddStudentDto> studentsDto);
+
         //create data
         Staff CreateStaff(AddStaffDto addStaffDto);
         Student CreateStudent(AddStudentDto addStudentDto);
@@ -16,7 +19,7 @@ namespace SchoolSystemBackend.Repositories.Interface
         Staff? GetStaffById(int id);
         Student? GetStudentById(int id);
         //update
-        Student? UpdateStudentById(int id, UpdateStudentDto updateStudentDto); 
+        Student? UpdateStudentById(int id, UpdateStudentDto updateStudentDto);
         Staff? UpdateStaffById(int id, UpdateStaffDto updateStaffDto);
         //delete
         void DeleteStudentById(int id);
