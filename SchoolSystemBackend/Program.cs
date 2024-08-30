@@ -15,10 +15,10 @@ builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 /***************************************************************/
 //add repository injection
-builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
-builder.Services.AddScoped<IClassStreamRepository, ClassStreamRepository>();
 builder.Services.AddScoped<IGradesRepository, GradeRepository>();
-builder.Services.AddScoped <INextOfKinRepository, NextOfKinRepository>();
+builder.Services.AddScoped<INextOfKinRepository, NextOfKinRepository>();
+builder.Services.AddScoped<IStaffRepository , StaffRepository>();
+builder.Services.AddScoped<IStudentRepository , StudentRepository>();
 
 /**************************************************************/
 
