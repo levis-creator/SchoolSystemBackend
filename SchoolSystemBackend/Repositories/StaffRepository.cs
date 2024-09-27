@@ -25,7 +25,6 @@ namespace SchoolSystemBackend.Repositories
                 LastName = addStaffDto.LastName,
                 Gender = addStaffDto.Gender,
                 DateOfBirth = addStaffDto.DateOfBirth,
-                Department = addStaffDto.Department,
                 NationalId = addStaffDto.NationalId,
                 EntranceDate = addStaffDto.EntranceDate,
             };
@@ -76,8 +75,8 @@ namespace SchoolSystemBackend.Repositories
                 staff.Gender = updateStaffDto.Gender;
                 staff.DateOfBirth = updateStaffDto.DateOfBirth;
                 staff.EntranceDate = updateStaffDto.EntranceDate;
-                staff.Department = updateStaffDto.Department;
                 staff.LastUpdatedAt = DateTime.Now;
+                staff.NationalId = updateStaffDto.NationalId;
                 _context.SaveChanges();
                 return staff;
             }

@@ -10,6 +10,5 @@ namespace SchoolSystemBackend.Models.Dtos.Staff
         public DateOnly DateOfBirth { get; set; }
         public int NationalId { get; set; }
         public DateOnly EntranceDate { get; set; }
-        public string Department { get; set; } = string.Empty;
     }
 }

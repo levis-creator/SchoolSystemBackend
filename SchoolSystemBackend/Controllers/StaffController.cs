@@ -21,20 +21,13 @@ namespace SchoolSystemBackend.Controllers
         [HttpPost]
         public IActionResult AddStaff([FromBody] AddStaffDto staffDto)
         {
-            try
-            {
+           
                 if (!ModelState.IsValid)
                 {
                     return BadRequest(ModelState);
                 }
                 var staff = staffRepository.CreateStaff(staffDto);
-                return Ok(staff);
-            }
-            catch (Exception)
-            {
-                return BadRequest("Something went wrong");
-            }
-
+                return Ok(staff);     
         }
 
         [HttpGet]

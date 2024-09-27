@@ -11,6 +11,7 @@ namespace SchoolSystemBackend.Data
         public DbSet<NextOfKin> NextOfKins { get; set; }
         public DbSet<Grade> Grades { get; set; }
         public DbSet<ClassStream> ClassStreams { get; set; }
+        public DbSet<Department> Departments { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
@@ -19,16 +20,24 @@ namespace SchoolSystemBackend.Data
         {
             //auto id
             modelBuilder.Entity<AppUser>()
-                .Property(u => u.Id)
-                .ValueGeneratedOnAdd();
+                        .Property(u => u.Id)
+                        .ValueGeneratedOnAdd();
+            modelBuilder.Entity<Department>()
+                        .Property(d => d.DepartmentId)
+                        .ValueGeneratedOnAdd();
+            modelBuilder.Entity<Department>()
+                        .HasMany(d => d.Staffs)
+                        .WithOne(s => s.Department)
+                        .HasForeignKey(s => s.DepartmentId)
+                        .IsRequired(false);
             modelBuilder.Entity<ClassStream>()
-                .HasMany(e => e.Grades)
-                .WithOne(g => g.ClassStream)
-                .HasForeignKey(g => g.GradeId);
+                        .HasMany(e => e.Grades)
+                        .WithOne(g => g.ClassStream)
+                        .HasForeignKey(g => g.GradeId);
             modelBuilder.Entity<Student>()
-                .HasMany(e => e.NextOfKins)
-                .WithMany(e => e.Students)
-                .UsingEntity(j=>j.ToTable("StudentNextOfKins"));
+                        .HasMany(e => e.NextOfKins)
+                        .WithMany(e => e.Students)
+                        .UsingEntity(j=>j.ToTable("StudentNextOfKins"));
 
             base.OnModelCreating(modelBuilder);
 

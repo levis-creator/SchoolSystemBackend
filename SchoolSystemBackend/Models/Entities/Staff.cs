@@ -4,6 +4,7 @@
     {
         public int NationalId { get; set; }
         public DateOnly EntranceDate { get; set; }
-        public string Department { get; set; } = string.Empty;
+        public int? DepartmentId { get; set; }
+        public Department? Department { get; set; }
     }
 }

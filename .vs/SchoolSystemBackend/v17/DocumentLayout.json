@@ -3,52 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\nextofkinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\nextofkinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\dtos\\staff\\updatestaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\dtos\\staff\\updatestaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\interface\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\interface\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\interface\\inextofkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\interface\\inextofkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\dtos\\staff\\addstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\dtos\\staff\\addstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\repositories\\interface\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\repositories\\interface\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\controllers\\classstreamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\controllers\\classstreamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\dtos\\departments\\adddepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\dtos\\departments\\adddepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\dtos\\departments\\departmentlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\dtos\\departments\\departmentlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\classstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\classstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\nextofkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\nextofkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\models\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\models\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\migrations\\20240831023852_department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\migrations\\20240831023852_department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|c:\\users\\levi\\source\\repos\\schoolsystembackend\\schoolsystembackend\\migrations\\20240831173048_departmentforeignkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A865F0B-BBDB-45AC-97D4-487B548DA681}|SchoolSystemBackend\\SchoolSystemBackend.csproj|solutionrelative:schoolsystembackend\\migrations\\20240831173048_departmentforeignkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,152 +94,264 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\AppUserRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\AppUserRepository.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\AppUserRepository.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\AppUserRepository.cs",
-              "ViewState": "AQIAAIYAAAAAuszMzMwBwJoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T13:09:20.476Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Program.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Program.cs",
-              "ViewState": "AQIAAAAAAADgzMzMzMwwwAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:57:47.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T09:53:40.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StaffRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StaffRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\StaffRepository.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StaffRepository.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\StaffRepository.cs",
-              "ViewState": "AQIAAA4AAABAMzMzM3MuwEAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:26:54.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\StudentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T09:54:03.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "StaffController.cs",
               "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\StaffController.cs",
               "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\StaffController.cs",
               "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\StaffController.cs",
               "RelativeToolTip": "SchoolSystemBackend\\Controllers\\StaffController.cs",
-              "ViewState": "AQIAAAsAAADQMTMzM/MjwBYAAAAJAAAA",
+              "ViewState": "AQIAABMAAABgLzMzMzMpwB0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:20:07.024Z"
+              "WhenOpened": "2024-08-31T16:24:15.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAAAAAAAzczMzMwgwEoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:13:28.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\Student.cs",
               "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Student.cs",
               "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T17:56:43.453Z"
+              "WhenOpened": "2024-08-30T19:15:44.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:29:05.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\Staff.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Staff.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:10:45.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateStaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Staff\\UpdateStaffDto.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Dtos\\Staff\\UpdateStaffDto.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Staff\\UpdateStaffDto.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Dtos\\Staff\\UpdateStaffDto.cs",
+              "ViewState": "AQIAAAAAAADAzMzMzMwgwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:38:16.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\StaffRepository.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\StaffRepository.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\StaffRepository.cs",
+              "ViewState": "AQIAAEwAAAAgx8zMzMwjwE4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:34:39.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "NextOfKinsController.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\NextOfKinsController.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\NextOfKinsController.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\NextOfKinsController.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Controllers\\NextOfKinsController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAOAzwBUAAAAMAAAA",
+              "Title": "AddStaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Staff\\AddStaffDto.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Dtos\\Staff\\AddStaffDto.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Staff\\AddStaffDto.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Dtos\\Staff\\AddStaffDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T17:17:10.222Z"
+              "WhenOpened": "2024-08-31T02:37:25.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240831173048_DepartmentForeignKey.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Migrations\\20240831173048_DepartmentForeignKey.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Migrations\\20240831173048_DepartmentForeignKey.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Migrations\\20240831173048_DepartmentForeignKey.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Migrations\\20240831173048_DepartmentForeignKey.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T17:30:49.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\AppUser.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:30:44.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AQIAABkAAACA+/////8ewCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:44:04.194Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IStaffRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\IStaffRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\Interface\\IStaffRepository.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\IStaffRepository.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\Interface\\IStaffRepository.cs",
-              "ViewState": "AQIAAAMAAABgzMzMzMwgwAcAAAApAAAA",
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\Interface\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\IDepartmentRepository.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\Interface\\IDepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:31:13.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "INextOfKinRepository.cs",
-              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\INextOfKinRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSystemBackend\\Repositories\\Interface\\INextOfKinRepository.cs",
-              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Repositories\\Interface\\INextOfKinRepository.cs",
-              "RelativeToolTip": "SchoolSystemBackend\\Repositories\\Interface\\INextOfKinRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T17:03:43.58Z"
+              "WhenOpened": "2024-08-31T02:39:50.203Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "GradesController.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\GradesController.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\GradesController.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\GradesController.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Controllers\\GradesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAABkPQAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T07:37:12.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAwAAABQZWZmZuYiwBcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T07:01:34.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Program.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Program.cs",
+              "ViewState": "AQIAAAoAAACQZmZmZkYwwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T06:59:30.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassStreamController.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\ClassStreamController.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Controllers\\ClassStreamController.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Controllers\\ClassStreamController.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Controllers\\ClassStreamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T07:33:04.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddDepartmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Departments\\AddDepartmentDto.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Dtos\\Departments\\AddDepartmentDto.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Departments\\AddDepartmentDto.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Dtos\\Departments\\AddDepartmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T07:06:15.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentListDto.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Departments\\DepartmentListDto.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Dtos\\Departments\\DepartmentListDto.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Dtos\\Departments\\DepartmentListDto.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Dtos\\Departments\\DepartmentListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:50:51.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClassStream.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\ClassStream.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\ClassStream.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\ClassStream.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\ClassStream.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:30:23.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240831023852_Department.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Migrations\\20240831023852_Department.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Migrations\\20240831023852_Department.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Migrations\\20240831023852_Department.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Migrations\\20240831023852_Department.cs",
+              "ViewState": "AQIAABUAAADAmZmZmVkswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:38:52.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "NextOfKin.cs",
               "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\NextOfKin.cs",
               "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\NextOfKin.cs",
               "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\NextOfKin.cs",
               "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\NextOfKin.cs",
-              "ViewState": "AQIAAAoAAABwmZmZmZk0wBUAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T11:53:27.285Z"
+              "WhenOpened": "2024-08-30T19:30:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Grade.cs",
+              "RelativeDocumentMoniker": "SchoolSystemBackend\\Models\\Entities\\Grade.cs",
+              "ToolTip": "C:\\Users\\levi\\source\\repos\\SchoolSystemBackend\\SchoolSystemBackend\\Models\\Entities\\Grade.cs",
+              "RelativeToolTip": "SchoolSystemBackend\\Models\\Entities\\Grade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:10:54.32Z"
             }
           ]
         }
